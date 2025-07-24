@@ -1,14 +1,11 @@
 apiVersion: v1
 kind: Service
 metadata:
-  creationTimestamp: "2025-07-18T02:57:59Z"
   labels:
     app: frontend
     version: v1.0.0
   name: front-svc
   namespace: frontend
-  resourceVersion: "14867"
-  uid: 1fb5d785-57b4-4f1a-b765-1b35d087a0a8
 spec:
   clusterIP: 10.43.158.250
   clusterIPs:

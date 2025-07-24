@@ -3,7 +3,6 @@ kind: Service
 metadata:
   labels:
     app: frontend
-    version: v1.0.0
   name: front-svc
   namespace: frontend
 spec:

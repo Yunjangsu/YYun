@@ -1,4 +1,3 @@
-# frontend-app.yaml
 apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
@@ -11,7 +10,7 @@ spec:
   source:
     repoURL: https://github.com/Yunjangsu/Yyun
     targetRevision: HEAD
-    path: applications/frontend/overlays/prod
+    path: applications/backend/overlays/prod
   destination:
     server: https://kubernetes.default.svc
     namespace: backend

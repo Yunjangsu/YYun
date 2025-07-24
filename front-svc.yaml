@@ -4,7 +4,6 @@ metadata:
   creationTimestamp: "2025-07-18T02:57:59Z"
   labels:
     app: frontend
-    version: v1.0.0
   name: front-svc
   namespace: frontend
   resourceVersion: "14867"
